@@ -1,0 +1,31 @@
+# Sidebar navigation
+
+- label: "Introduction"
+  link: "/"
+- label: "Getting started"
+  link: "/getting-started"
+- label: Hand Anatomy
+  items:
+    - label: "Bones"
+      link: "/anatomy/bones"
+    - label: "Flexor muscles"
+      link: "/anatomy/muscles"
+    - label: "Flexor-pulley system"
+      link: "/anatomy/pulley-system"
+- label: Injury prevention
+  items:
+    - label: FAQ
+      link: /faq
+    - label: Changelog
+      link: /changelog
+- label: Sources
+  items:
+    - label: Who made this page?
+      link: /faq
+    - label: Can I trust this site?
+      link: /changelog
+
+- label: Community
+  items:
+    - label: "Github"
+      link: https://github.com/rocketseat/gatsby-themes
