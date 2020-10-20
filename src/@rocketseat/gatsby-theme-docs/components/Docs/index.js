@@ -2,17 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
 
-import React from 'react';
-import PropTypes from 'prop-types';
-import { MDXRenderer } from 'gatsby-plugin-mdx';
-
-import Layout from '../Layout';
-import SEO from '../SEO';
-import PostNav from './PostNav';
-// import EditGithub from './EditGithub';
+import Layout from '@rocketseat/gatsby-theme-docs/src/components/Layout';
+import SEO from '@rocketseat/gatsby-theme-docs/src/components/SEO';
+import PostNav from '@rocketseat/gatsby-theme-docs/src/components/Docs/PostNav';
 
 export default function Docs({ mdx, pageContext }) {
-  const { prev, next, githubEditUrl } = pageContext;
+  const { prev, next } = pageContext;
   const { title, description, image, disableTableOfContents } = mdx.frontmatter;
   const { headings, body } = mdx;
   const { slug } = mdx.fields;
@@ -26,7 +21,6 @@ export default function Docs({ mdx, pageContext }) {
         headings={headings}
       >
         <MDXRenderer>{body}</MDXRenderer>
-        {/* <EditGithub githubEditUrl={githubEditUrl} /> */}
         <PostNav prev={prev} next={next} />
       </Layout>
     </>
@@ -50,6 +44,5 @@ Docs.propTypes = {
   pageContext: PropTypes.shape({
     prev: PropTypes.shape({}),
     next: PropTypes.shape({}),
-    githubEditUrl: PropTypes.string,
   }).isRequired,
 };
