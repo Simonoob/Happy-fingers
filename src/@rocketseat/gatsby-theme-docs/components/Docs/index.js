@@ -21,6 +21,11 @@ export default function Docs({ mdx, pageContext }) {
         headings={headings}
       >
         <MDXRenderer>{body}</MDXRenderer>
+        <iframe id="myWidget"
+          src="https://human.biodigital.com/widget/?m=cochlear_implant&dk=f2a828d457e625d5e3989b7e9d9c6c06b7fa2fb1"
+          width="100%"
+          height="100%">
+    </iframe>
         <PostNav prev={prev} next={next} />
       </Layout>
     </>
