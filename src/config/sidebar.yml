@@ -2,30 +2,23 @@
 
 - label: "Introduction"
   link: "/"
-- label: "Getting started"
-  link: "/getting-started"
 - label: Hand Anatomy
   items:
     - label: "Bones"
       link: "/anatomy/bones"
-    - label: "Flexor muscles"
+    - label: "Muscles"
       link: "/anatomy/muscles"
+    - label: "Pulleys"
+      link: "/anatomy/pulleys"
     - label: "Flexor-pulley system"
       link: "/anatomy/pulley-system"
-- label: Injury prevention
+- label: Injury
   items:
-    - label: FAQ
+    - label: Injury mechanics
       link: /faq
-    - label: Changelog
+    - label: Risk factors
       link: /changelog
 - label: Sources
   items:
-    - label: Who made this page?
-      link: /faq
     - label: Can I trust this site?
       link: /changelog
-
-- label: Community
-  items:
-    - label: "Github"
-      link: https://github.com/rocketseat/gatsby-themes
