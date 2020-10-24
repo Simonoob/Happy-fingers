@@ -15,7 +15,7 @@
 - label: Injury
   items:
     - label: Injury mechanics
-      link: /faq
+      link: "/injury/injury-mechanics"
     - label: Risk factors
       link: /changelog
 - label: Sources
