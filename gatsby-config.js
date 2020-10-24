@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `🖐 Happy fingers`,
-    defaultTitle: `🖐 Happy fingers`,
+    siteTitle: `Happy fingers`,
+    defaultTitle: `Happy fingers`,
     siteTitleShort: `Happy fingers`,
     siteDescription: `Finger pulley prevention resource`,
     siteUrl: `https://rocketdocs.netlify.com`,
@@ -24,8 +24,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rocketseat Gatsby Themes`,
-        short_name: `RS Gatsby Themes`,
+        name: `Happy fingers`,
+        short_name: `Happy fingers`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
