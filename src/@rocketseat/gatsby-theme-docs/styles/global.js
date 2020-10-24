@@ -68,8 +68,9 @@ export default function GlobalStyle() {
           padding: .5rem;
           margin: .5rem;
           margin-left: 0;
-          background-color: ${theme.colors.text};
-          color: white;
+          background-color: ${theme.colors.primary};
+          color: ${theme.colors.title};
+          font-weight: bold;
           border: 2px solid ${theme.colors.title};
           border-radius: 5rem;
           outline: none;
@@ -78,6 +79,7 @@ export default function GlobalStyle() {
 
           &:hover {
             background-color: ${theme.colors.title};
+            color: ${theme.colors.primary};
           }
         }
 

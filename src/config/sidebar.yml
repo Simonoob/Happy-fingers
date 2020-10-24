@@ -14,10 +14,18 @@
       link: "/anatomy/pulley-system"
 - label: Injury
   items:
-    - label: Injury mechanics
+    - label: Overview
       link: "/injury/injury-mechanics"
     - label: Risk factors
-      link: /changelog
+      link: /injury/risk-factors
+- label: Grips
+  items:
+    - label: Open grip
+      link: "/injury/grips/open"
+    - label: Open crimp
+      link: "/injury/grips/open-crimp"
+    - label: Closed crimp
+      link: "/injury/grips/closed-crimp"
 - label: Sources
   items:
     - label: Can I trust this site?
