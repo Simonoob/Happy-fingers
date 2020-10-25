@@ -64,6 +64,8 @@ export default function GlobalStyle() {
           font-weight: 400;
         }
 
+    
+
         button {
           padding: .5rem;
           margin: .5rem;
@@ -82,6 +84,27 @@ export default function GlobalStyle() {
             color: ${theme.colors.primary};
           }
         }
+
+        .hand{
+          transform: rotate(0deg);
+          width: min-content;
+          padding-left: .5rem;
+          cursor: pointer;
+
+          animation-name: hi;
+          animation-duration: .7s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+
+        }
+
+        @keyframes hi{
+          0% {transform: rotate(0deg);}
+          25% {transform: rotate(20deg);}
+          50% {transform: rotate(0deg);}
+          100% {transform: rotate(0deg);}
+        }
+
 
         code.inline-code {
           display: inline-block;

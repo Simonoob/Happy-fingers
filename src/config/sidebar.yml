@@ -26,7 +26,9 @@
       link: "/injury/grips/open-crimp"
     - label: Closed crimp
       link: "/injury/grips/closed-crimp"
+- label: Main takeaways
+  link: "/injury/grips/takeaway"
 - label: Sources
   items:
     - label: Can I trust this site?
-      link: /changelog
+      link: /sources
