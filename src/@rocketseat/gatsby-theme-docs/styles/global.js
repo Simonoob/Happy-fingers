@@ -85,6 +85,18 @@ export default function GlobalStyle() {
           }
         }
 
+        .homeBtn{
+          background-color: ${theme.colors.background};
+          color: ${theme.colors.title};
+          border: 2px solid ${theme.colors.primary};
+
+          &:hover {
+            background-color: ${theme.colors.primary};
+            color: ${theme.colors.title};
+            border: 2px solid ${theme.colors.title};
+          }
+        }
+
         .hand{
           transform: rotate(0deg);
           width: min-content;

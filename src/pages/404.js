@@ -4,6 +4,8 @@ import { Link } from 'gatsby';
 import Layout from '@rocketseat/gatsby-theme-docs/src/components/Layout';
 import SEO from '@rocketseat/gatsby-theme-docs/src/components/SEO';
 
+import Fall from "../../static/fall.jpg"
+
 export default function NotFound() {
   return (
     <Layout title="Page not found!😢">
@@ -13,6 +15,7 @@ export default function NotFound() {
         If you&#39;d like to go back to homepage, <Link to="/">click here 🚀</Link>
         .
       </p>
+      <img src={Fall} alt="Alex Megos falling"/>
     </Layout>
   );
 }
