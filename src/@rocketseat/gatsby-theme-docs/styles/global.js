@@ -86,15 +86,22 @@ export default function GlobalStyle() {
         }
 
         .homeBtn{
-          background-color: ${theme.colors.background};
-          color: ${theme.colors.title};
-          border: 2px solid ${theme.colors.primary};
+          color: white;
 
           &:hover {
-            background-color: ${theme.colors.primary};
-            color: ${theme.colors.title};
-            border: 2px solid ${theme.colors.title};
+            background-color: ${theme.colors.title};
+            color: white;
           }
+        }
+
+        .homeBtn1{
+          background-color: #f44336;
+        }
+        .homeBtn2{
+          background-color: #008CBA;
+        }
+        .homeBtn3{
+          background-color: #4CAF50;
         }
 
         .hand{
