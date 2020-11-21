@@ -87,6 +87,9 @@ export default function GlobalStyle() {
 
         .homeBtn{
           color: white;
+          margin: 0;
+          width: 100%;
+          border: none;
 
           &:hover {
             background-color: ${theme.colors.title};
