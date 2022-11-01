@@ -8,7 +8,7 @@
   "starter-name": "gatsby-starter-rocket-docs",
   "dependencies": {
     "@rocketseat/gatsby-theme-docs": "^2.2.3",
-    "gatsby": "^2.24.82",
+    "gatsby": "^4.24.6",
     "gatsby-plugin-canonical-urls": "^2.1.19",
     "gatsby-plugin-google-analytics": "^2.1.34",
     "gatsby-plugin-manifest": "^2.2.37",
